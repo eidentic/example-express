@@ -1,0 +1,25 @@
+{
+  "name": "eidentic-express-example",
+  "version": "1.0.0",
+  "description": "Memory-backed chat agent with eidentic + Express",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "latest",
+    "@eidentic/libsql": "^0.1.1",
+    "dotenv": "^17.4.2",
+    "eidentic": "^0.1.1",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.0.0",
+    "tsx": "latest",
+    "typescript": "^5.0.0"
+  }
+}
